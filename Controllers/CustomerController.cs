@@ -32,14 +32,8 @@ namespace my-code.Controllers{
         }
 
         /// <summary>Retrieves a list of customers based on specified filters</summary>
-        /// <param name="filters">The filter criteria in JSON format. Use the following format:                                
-        /// [
-        ///   {
-        ///     "Property": "PropertyName",
-        ///     "Operator": "Equal",
-        ///     "Value": "FilterValue"
-        ///   }
-        /// ]
+        /// <param name="filters">The filter criteria in JSON format. Use the following format: [{"Property": "PropertyName", "Operator": "Equal", "Value": "FilterValue"}] </param>
+        /// <returns>The filtered list of customers</returns>
         [HttpGet]
         public IActionResult Get([FromQuery] string filters)
         {
