@@ -1,6 +1,6 @@
 using System;
 
-namespace my - code . Filter{
+namespace My - code . Filter{
     public class FilterCriteria
     {
         public string PropertyName { get; set; }
