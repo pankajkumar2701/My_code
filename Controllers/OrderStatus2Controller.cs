@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using my-code.Model;
-using my-code.Data;
-using my-code.Filter;
+using My-code.Model;
+using My-code.Data;
+using My-code.Filter;
 
-namespace my-code.Controllers{
+namespace My-code.Controllers{
     /// <summary>
     /// Controller responsible for managing orderstatus2-related operations in the API.
     /// </summary>
@@ -13,9 +13,9 @@ namespace my-code.Controllers{
     [Route("api/[controller]")]
     public class OrderStatus2Controller : ControllerBase
     {
-        private readonly my-codeContext_context;
+        private readonly My-codeContext_context;
 
-        public OrderStatus2Controller(my-codeContextcontext)
+        public OrderStatus2Controller(My-codeContextcontext)
         {
             _context = context;
         }
