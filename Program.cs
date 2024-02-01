@@ -1,4 +1,4 @@
-using my-code.Data;
+using My-code.Data;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen(c =>
     c.IncludeXmlComments(xmlPath);
 });
 builder.Services.AddControllers();
-builder.Services.AddTransient<my-codeContext>();
+builder.Services.AddTransient<My-codeContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
