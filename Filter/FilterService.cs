@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace my - code . Filter{
+namespace My - code . Filter{
     public static class FilterService<TEntity>
     {
         public static IQueryable<TEntity> ApplyFilter<TEntity>(IQueryable<TEntity> query, List<FilterCriteria> filters)
