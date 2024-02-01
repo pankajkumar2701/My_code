@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace my - code . Model{
+namespace My - code . Model{
     /// <summary> 
     /// Represents a orderline entity with essential details
     /// </summary>
